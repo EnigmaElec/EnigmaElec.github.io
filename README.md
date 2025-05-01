@@ -14,7 +14,7 @@ Already install it in Lenovo V110 and all good
 
 <b>2. Desktop Environment XFCE</b>
 
-![XFCE](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_%20XFCE/Screenshot%20from%202025-05-01%2001-43-49.png)
+ ![Awesome Windows Manager](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnimaOS_awesomeWM/6.png)
 
 <b>3. Desktop Environment KDE Plasma</b>
 
