@@ -3,7 +3,7 @@
 -> Build with Debian Live-Build, Tested on Virt-manager </br>
 -> initramfs Compress Maximum using zstd </br>
 -> Build with minbase packages </br>
--> Passord is = live if asked in calamares section </br>
+-> <b>Passord = live </b> if asked in calamares section </br>
 -> Try it first in virtualbox environmet
 -> Diclaimer : Install with youre own Risk !!! Already install it in Lenovo V110 and all good
 
