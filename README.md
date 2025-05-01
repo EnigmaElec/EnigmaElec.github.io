@@ -1,5 +1,9 @@
 <h1>EnigmaOS Base on Debian 12 Bookworm 64 bit with Various Desktop Environment</h1>
 
+-> Build with Debian Live-Build, Tested on Virt-manager
+-> initramfs Compress Maximum using zstd
+-> Build with minbase packages
+
 <b>1.Awesome Windows manager</b>
 
  ![Awesome Windows Manager](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnimaOS_awesomeWM/6.png)
