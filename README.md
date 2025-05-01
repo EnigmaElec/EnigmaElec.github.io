@@ -4,7 +4,8 @@
 -> initramfs Compress Maximum using zstd </br>
 -> Build with minbase packages </br>
 -> Passord is = live if asked in calamares section </br>
--> Dislaimer : Try it first in virtualbox environmet
+-> Try it first in virtualbox environmet
+-> Diclaimer : Install with youre own Risk !!! Already install it in Lenovo V110 and all good
 
 <b>1.Awesome Windows manager</b>
 
@@ -17,3 +18,5 @@
 <b>3. Desktop Environment KDE Plasma</b>
 
 ![KDE Plasma](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_Plasma/5.png)
+
+
