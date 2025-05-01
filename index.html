@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnigmaOS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Gaya CSS Kustom */
+        body {
+            font-family: sans-serif;
+            color: #f8f9fa; /* Teks putih/abu muda untuk latar belakang gelap */
+            background-color: #343a40; /* Latar belakang abu-abu gelap (greydark) */
+        }
+        .navbar {
+            background-color: rgba(52, 58, 64, 0.9); /* Navbar sedikit transparan */
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .hero {
+            background: linear-gradient(to right, rgba(52, 58, 64, 0.8), rgba(66, 73, 80, 0.8));
+            padding: 120px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #eee;
+            margin-bottom: 30px;
+        }
+        .features {
+            padding: 80px 0;
+            background-color: #495057; /* Latar belakang bagian fitur lebih terang */
+        }
+        .feature-item {
+            text-align: center;
+            padding: 30px;
+            color: #fff;
+        }
+        .feature-item i {
+            font-size: 2.5rem;
+            color: #28a745;
+            margin-bottom: 15px;
+        }
+        .feature-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .cta {
+            background-color: #007bff;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .cta h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .distributions {
+            padding: 80px 0;
+            background-color: #343a40;
+        }
+        .distribution-logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .distribution-logo img {
+            max-width: 150px;
+            height: auto;
+            opacity: 0.7;
+            filter: grayscale(50%);
+            transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+        }
+        .distribution-logo img:hover {
+            opacity: 1;
+            filter: grayscale(0%);
+        }
+        .footer {
+            background-color: #212529;
+            color: #f8f9fa;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer p {
+            margin-bottom: 0;
+        }
+        .btn-primary, .btn-outline-secondary {
+            color: #fff !important;
+            border-color: #fff !important;
+        }
+        .btn-primary:hover, .btn-outline-secondary:hover {
+            background-color: #fff !important;
+            color: #343a40 !important;
+        }
+        .btn-light {
+            color: #343a40 !important;
+        }
+        .btn-light:hover {
+            background-color: #f8f9fa !important;
+            color: #212529 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-linux fa-lg mr-2"></i>EnigmaOS
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fitur">Fitur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#distribusi">Distribusi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#unduh">Unduh</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>EnigmaOS Linux</h1>
+                    <p class="lead">Sistem operasi linux yang ditujukan untuk penggunaan sehari hari, berbasis debian bookworm 12.10 dengan berbagai macam Desktop Environment </p>
+                    <a href="#unduh" class="btn btn-primary btn-lg">Unduh Sekarang</a>
+                    <a href="#pelajari" class="btn btn-outline-secondary btn-lg ml-3">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fitur" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Keamanan Superior</h3>
+                        <p>Arsitektur yang dirancang dengan fokus pada keamanan dan privasi pengguna.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Kustomisasi Tanpa Batas</h3>
+                        <p>Ubah tampilan, fungsi, dan sesuaikan sistem sesuai preferensi Anda.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Komunitas yang Mendukung</h3>
+                        <p>Ribuan pengguna dan pengembang siap membantu dan berbagi pengetahuan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Open Source Sejati</h3>
+                        <p>Kebebasan untuk menggunakan, memodifikasi, dan mendistribusikan perangkat lunak secara gratis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-terminal"></i>
+                        <h3>Kontrol Penuh</h3>
+                        <p>Manfaatkan kekuatan baris perintah untuk efisiensi dan kontrol yang mendalam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-laptop"></i>
+                        <h3>Dukungan Hardware Luas</h3>
+                        <p>Kompatibel dengan berbagai macam perangkat keras, dari PC lawas hingga workstation modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="distribusi" class="distributions">
+        <div class="container">
+            <h2>Jelajahi Ragam Desktop yang anda minati </h2>
+            <p class="lead text-center mb-5" style="color: #eee;">Temukan Desktop Environment yang sesuai dengan kebutuhan Anda.</p>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ubuntu_logo.svg/1200px-Ubuntu_logo.svg.png" alt="Ubuntu" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.svg/1200px-Tux.svg.png" alt="Linux Mint" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Debian-logo.svg/1200px-Debian-logo.svg.png" alt="Debian" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Archlinux-logo.svg/1200px-Archlinux-logo.svg.png" alt="Arch Linux" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fedora_logo_and_wordmark.svg/1200px-Fedora_logo_and_wordmark.svg.png" alt="Fedora" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/OpenSUSE_current_logo.svg/1200px-OpenSUSE_current_logo.svg.png" alt="openSUSE" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/CentOS_Official_Logo.svg/1200px-CentOS_Official_Logo.svg.png" alt="CentOS" class="img-fluid"></a>
+                </div>
+                <div class="col-md-3 col-sm-6 distribution-logo">
+                    <a href="#" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Manjaro-logo.svg/1200px-Manjaro-logo.svg.png" alt="Manjaro" class="img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="unduh" class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Siap Memulai Pengalaman Linux Anda?</h2>
+                    <p class="lead">Pilih DE favorit Anda dan unduh sekarang untuk merasakan kebebasannya.</p>
+                    <a href="#" class="btn btn-light btn-lg">Unduh Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2025 Linux. Semua hak dilindungi.</p>
+                    <p>Didukung oleh <i class="fab fa-linux"></i> dan <i class="fab fa-bootstrap"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+</body>
+</html>
