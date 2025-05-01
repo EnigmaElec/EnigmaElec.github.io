@@ -4,8 +4,9 @@
 -> initramfs Compress Maximum using zstd </br>
 -> Build with minbase packages </br>
 -> <b>Passord = live </b> if asked in calamares section </br>
--> Try it first in virtualbox environmet
--> Diclaimer : Install with youre own Risk !!! Already install it in Lenovo V110 and all good
+-> Try it first in virtualbox environmet </br>
+-> Diclaimer : Install with youre own Risk !!! </br>
+Already install it in Lenovo V110 and all good
 
 <b>1.Awesome Windows manager</b>
 
