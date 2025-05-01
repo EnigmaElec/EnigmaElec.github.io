@@ -27,4 +27,4 @@ Already install it in Lenovo V110 and all good
 
 <b>5. Desktop Environment Gnome</b>
 
-![Cinnamon](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_cinammon/2.png)
+![Gnome](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_Gnome/Screenshot%20from%202025-05-01%2009-54-16.png)
