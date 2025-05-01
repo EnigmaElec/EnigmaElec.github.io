@@ -1,8 +1,10 @@
 <h1>EnigmaOS Base on Debian 12 Bookworm 64 bit with Various Desktop Environment</h1>
 
--> Build with Debian Live-Build, Tested on Virt-manager
--> initramfs Compress Maximum using zstd
--> Build with minbase packages
+-> Build with Debian Live-Build, Tested on Virt-manager </br>
+-> initramfs Compress Maximum using zstd </br>
+-> Build with minbase packages </br>
+-> Passord is = live if asked in calamares section
+-> Dislaimer : Try it first in virtualbox environmet
 
 <b>1.Awesome Windows manager</b>
 
