@@ -8,7 +8,7 @@
 -> Diclaimer : Install with youre own Risk !!! </br>
 Already install it in Lenovo V110 and all good
 
-<b>1.Awesome Windows manager</b>
+<b>1. Awesome Windows manager</b>
 
  ![Awesome Windows Manager](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnimaOS_awesomeWM/6.png)
 
@@ -20,4 +20,6 @@ Already install it in Lenovo V110 and all good
 
 ![KDE Plasma](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_Plasma/5.png)
 
+<b>4. Desktop Environment Cinnamon</b>
 
+![Cinnamon](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_cinammon/2.png)
