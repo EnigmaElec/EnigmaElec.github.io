@@ -7,6 +7,15 @@
 -> Diclaimer : Install with youre own Risk !!! </br>
 Already install it in Lenovo V110 and all good
 
+Try in virt-manager :
+
+1. Install virtual-manager  <b>$ sudo apt install virt-manager -y</b>
+2. Create new virtual machine
+3. Choose localInstall media then go fowward
+4. Browse where the file.iso 
+5. and Choose Debian 11 and go foward and tested 
+
+
 <b>1. Awesome Windows manager</b>
 
  ![Awesome Windows Manager](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnimaOS_awesomeWM/6.png)
