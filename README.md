@@ -13,8 +13,9 @@ Try in virt-manager :
 2. Create new virtual machine
 3. Choose localInstall media then go fowward
 4. Browse where the file.iso 
-5. and Choose Debian 11 and go foward and tested 
+5. and Choose Debian 11 and go foward and tested
 
+Download link in <b> Release Section </b>
 
 <b>1. Awesome Windows manager</b>
 
