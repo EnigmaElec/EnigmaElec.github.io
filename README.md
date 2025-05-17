@@ -36,4 +36,4 @@ Download link in <b> Release Section </b>
 
 <b>5. Desktop Environment Gnome</b>
 
-![Gnome](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_Gnome/Screenshot%20from%202025-05-01%2009-54-16.png)
+![Gnome](https://github.com/EnigmaElec/EnigmaElec.github.io/blob/main/assset/EnigmaOS_Gnome/Gnome.png)
